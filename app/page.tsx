@@ -51,12 +51,12 @@ export default function Home() {
         </p>
       </div>
       <div className="w-[350px] mb-8 bg-white pt-10 pb-4 flex flex-col justify-center items-center border-[1px] border-yellow-200 border-t-0 rounded-t-none rounded-xl">
-        <QRCode
+        {data.qr!="420" && <QRCode
           size={320}
           className="mx-auto"
           value={data.qr}
           //          value="zupasslengthlengthlengthlengthlengthlengthlengthlengthlengthlengthlengthlengthhlengthlenghlengthlenghlengthleng.org"
-        />
+        />}
         <p className="font-extralight font-xs mt-6">Lev, Rafi & Manu</p>
         <p className="font-extralight font-xs mt-2">hack@zuzalu.city</p>
         <img src="zkmode.png" alt="zk-mode" className="w-[150px] self-end mr-4" />
