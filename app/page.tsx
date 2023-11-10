@@ -24,8 +24,8 @@ export default function Home() {
           className="mx-auto"
           value="zupasslengthlengthlengthlengthlengthlengthlengthlengthlengthlengthlengthlengthhlengthlenghlengthlenghlengthleng.org"
         />
-        <p className="font-extralight font-xs mt-6">Lev Rafi</p>
-        <p className="font-extralight font-xs mt-2">email@email.com</p>
+        <p className="font-extralight font-xs mt-6">Lev, Rafi & Manu</p>
+        <p className="font-extralight font-xs mt-2">hack@zuzalu.city</p>
         <img src="zkmode.png" alt="zk-mode" className="w-[150px] self-end mr-4" />
 
         <button className="bg-[#a95940] rounded-2xl text-white px-4 py-1 self-end mr-4 mt-4 font-sm">
